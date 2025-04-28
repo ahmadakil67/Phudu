@@ -1,0 +1,134 @@
+[
+  {
+    "doctorImage": "https://i.ibb.co.com/5hHY4cjF/doc-11.png",
+    "name": "John Smith",
+    "education": "MD, University of Medicine",
+    "speciality": "Cardiology",
+    "experience": "15 years",
+    "registration_number": "BD12345",
+    "works_at": "Square Hospitals Ltd.",
+    "available_days": ["Saturday", "Sunday", "Monday", "Tuesday"],
+    "consultation_fee": 950
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/PzxzsGq7/doc-1.png",
+    "name": "Jane Doe",
+    "education": "MBBS, PhD",
+    "speciality": "Pediatrics",
+    "experience": "10 years",
+    "registration_number": "BD67890",
+    "works_at": "Dhaka Shishu Hospital",
+    "available_days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+    "consultation_fee": 780
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/CxgGC72/doc-2.png",
+    "name": "Robert Jones",
+    "education": "DO, MS",
+    "speciality": "Orthopedics",
+    "experience": "20 years",
+    "registration_number": "BD24680",
+    "works_at": "National Institute of Traumatology and Orthopedic Rehabilitation",
+    "available_days": ["Saturday", "Monday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 1100
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/hRtsqmvV/doc-3.png",
+    "name": "Alice Brown",
+    "education": "MD",
+    "speciality": "Dermatology",
+    "experience": "8 years",
+    "registration_number": "BD13579",
+    "works_at": "Bangladesh Specialized Hospital",
+    "available_days": ["Sunday", "Tuesday", "Thursday"],
+    "consultation_fee": 820
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/bMF87rPM/doc-4.png",
+    "name": "Michael Davis",
+    "education": "MBBS, FRCS",
+    "speciality": "General Surgery",
+    "experience": "12 years",
+    "registration_number": "BD98765",
+    "works_at": "Dhaka Medical College Hospital",
+    "available_days": ["Saturday", "Sunday", "Tuesday", "Wednesday", "Friday", "Saturday"],
+    "consultation_fee": 1050
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/PsjWzTRs/doc-5.png",
+    "name": "Emily Wilson",
+    "education": "MD, MPH",
+    "speciality": "Internal Medicine",
+    "experience": "14 years",
+    "registration_number": "BD34567",
+    "works_at": "United Hospital Limited",
+    "available_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 980
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/bRWxCcR4/doc-6.png",
+    "name": "David Garcia",
+    "education": "DO",
+    "speciality": "Family Medicine",
+    "experience": "9 years",
+    "registration_number": "BD87654",
+    "works_at": "Popular Diagnostic Centre Ltd.",
+    "available_days": ["Saturday", "Sunday", "Tuesday"],
+    "consultation_fee": 720
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/m73YFPF/doc-7.png",
+    "name": "Linda Rodriguez",
+    "education": "MD, FACOG",
+    "speciality": "Obstetrics and Gynecology",
+    "experience": "17 years",
+    "registration_number": "BD23456",
+    "works_at": "Evercare Hospital Dhaka",
+    "available_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "consultation_fee": 1150
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/Z1TSz5vb/doc-8.png",
+    "name": "Christopher Williams",
+    "education": "MBBS, MRCP",
+    "speciality": "Neurology",
+    "experience": "11 years",
+    "registration_number": "BD76543",
+    "works_at": "National Institute of Neurosciences & Hospital",
+    "available_days": ["Saturday", "Sunday", "Monday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 880
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/CprBjjKp/doc-9.png",
+    "name": "Angela Garcia",
+    "education": "MD",
+    "speciality": "Psychiatry",
+    "experience": "13 years",
+    "registration_number": "BD45678",
+    "works_at": "National Institute of Mental Health and Hospital",
+    "available_days": ["Sunday", "Tuesday", "Wednesday"],
+    "consultation_fee": 750
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/BKnNRkKN/doc-10.png",
+    "name": "Brian Martinez",
+    "education": "DO, FACC",
+    "speciality": "Cardiology",
+    "experience": "16 years",
+    "registration_number": "BD91234",
+    "works_at": "Labaid Cardiac Hospital",
+    "available_days": ["Saturday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+    "consultation_fee": 1200
+  },
+  {
+    "doctorImage": "https://i.ibb.co.com/tr39f3v/doc-12.png",
+    "name": "Nicole Robinson",
+    "education": "MD, FAAP",
+    "speciality": "Pediatrics",
+    "experience": "10 years",
+    "registration_number": "BD56789",
+    "works_at": "Ibn Sina Specialized Hospital",
+    "available_days": ["Sunday", "Monday", "Wednesday", "Friday"],
+    "consultation_fee": 920
+  }
+]

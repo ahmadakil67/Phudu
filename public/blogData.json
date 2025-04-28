@@ -1,0 +1,54 @@
+
+[
+      {
+        "id": 1,
+        "question": "What is JSX?",
+        "answer": "JSX is a syntax extension to JavaScript that allows you to write HTML-like structures within your JavaScript code. It gets transformed into regular JavaScript function calls that create DOM elements."
+      },
+      {
+        "id": 2,
+        "question": "What are React components?",
+        "answer": "React components are the building blocks of a React application's UI. They are independent and reusable pieces of code that manage their own data and rendering. There are two main types: functional components and class components."
+      },
+      {
+        "id": 3,
+        "question": "What is the difference between state and props?",
+        "answer": "State is data that is managed within a component and can change over time. Props (short for properties) are data passed down from a parent component to a child component and are immutable from the child's perspective."
+      },
+      {
+        "id": 4,
+        "question": "What is the virtual DOM?",
+        "answer": "The virtual DOM is a lightweight in-memory representation of the actual DOM. React uses it to efficiently update the UI by first comparing the virtual DOM with the previous version and then only applying the necessary changes to the real DOM."
+      },
+      {
+        "id": 5,
+        "question": "What are React Hooks?",
+        "answer": "Hooks are functions that let you 'hook into' React state and lifecycle features from functional components. They were introduced in React 16.8 and provide a way to use state and other React features without writing classes. Examples include `useState`, `useEffect`, and `useContext`."
+      },
+      {
+        "id": 6,
+        "question": "What is the purpose of the `useEffect` Hook?",
+        "answer": "The `useEffect` Hook is used for performing side effects in functional components. These side effects can include data fetching, setting up subscriptions, manually changing the DOM, and more. It combines the functionality of lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components."
+      },
+      {
+        "id": 7,
+        "question": "What is routing in React?",
+        "answer": "Routing in React is the process of navigating between different views or pages within a single-page application (SPA) without triggering a full page reload. Libraries like React Router are commonly used to implement client-side routing in React applications."
+      },
+      {
+        "id": 8,
+        "question": "What is Redux?",
+        "answer": "Redux is a predictable state management library for JavaScript applications, often used with React. It provides a centralized store for the application's state, making it easier to manage and debug complex applications."
+      },
+      {
+        "id": 9,
+        "question": "What is the Context API in React?",
+        "answer": "The Context API is a built-in React feature that allows you to share state across the component tree without having to pass props down manually at every level. It's useful for sharing global data like user authentication status or theme settings."
+      },
+      {
+        "id": 10,
+        "question": "What are controlled and uncontrolled components?",
+        "answer": "In a controlled component, form elements are controlled by React state. Their values are managed by React, and updates are handled through event handlers. In an uncontrolled component, form elements maintain their own internal state, and you can access their values using refs."
+      }
+    ]
+  
