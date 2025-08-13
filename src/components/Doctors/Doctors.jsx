@@ -57,7 +57,7 @@ const Doctors = ({ data }) => {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        <img src="/medical-appointment-booking-application/C001-assets/success-doctor.png" alt="" className="h-12 w-12 mb-4" />
+        <img src="/C001-assets/success-doctor.png" alt="" className="h-12 w-12 mb-4" />
         <h2 className="text-4xl font-bold">
           <CountUp end={199} enableScrollSpy duration={5} />+
         </h2>
@@ -71,7 +71,7 @@ const Doctors = ({ data }) => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <img src="/medical-appointment-booking-application/C001-assets/success-patients.png" alt="" className="h-12 w-12 mb-4" />
+        <img src="/C001-assets/success-patients.png" alt="" className="h-12 w-12 mb-4" />
         <h2 className="text-4xl font-bold">
           <CountUp end={467} enableScrollSpy duration={5} />+
         </h2>
@@ -85,7 +85,7 @@ const Doctors = ({ data }) => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.4 }}
       >
-        <img src="/medical-appointment-booking-application/C001-assets/success-review.png" alt="" className="h-12 w-12 mb-4" />
+        <img src="/C001-assets/success-review.png" alt="" className="h-12 w-12 mb-4" />
         <h2 className="text-4xl font-bold">
           <CountUp end={1900} enableScrollSpy duration={5} />+
         </h2>
@@ -99,7 +99,7 @@ const Doctors = ({ data }) => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <img src="/medical-appointment-booking-application/C001-assets/success-staffs.png" alt="" className="h-12 w-12 mb-4" />
+        <img src="/C001-assets/success-staffs.png" alt="" className="h-12 w-12 mb-4" />
         <h2 className="text-4xl font-bold">
           <CountUp end={300} enableScrollSpy duration={5} />+
         </h2>

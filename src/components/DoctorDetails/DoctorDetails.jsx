@@ -39,7 +39,7 @@ const DoctorDetails = () => {
       consultation_fee,
     });
     localStorage.setItem("bookedDoctors", JSON.stringify(bookedDoctors));
-    window.location.href = `/my-bookings/${registration_number}?showToast=true`; 
+    window.location.href = `/my-bookings`; 
   }
 };
   

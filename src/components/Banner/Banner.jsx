@@ -27,8 +27,8 @@ const Banner = () => {
       </div>
 
       <div className="flex justify-center gap-8">
-        <img className="w-[450px] h-[280px]" src="/medical-appointment-booking-application/C001-assets/banner-img-1.png" alt="" />
-        <img className="w-[450px] h-[280px]" src="/medical-appointment-booking-application/C001-assets/banner-img-1.png" alt="" />
+        <img className="w-[450px] h-[280px]" src="/C001-assets/banner-img-1.png" alt="" />
+        <img className="w-[450px] h-[280px]" src="/C001-assets/banner-img-1.png" alt="" />
       </div>
     </div>
   );
