@@ -1,12 +1,21 @@
 import { FaRegRegistered } from "react-icons/fa6";
-import { Link, useLoaderData, useParams } from "react-router";
-import {toast, ToastContainer } from "react-toastify";
+import { Link, useLoaderData, useParams, useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import NotFound from "../NotFound/NotFound"; 
 
 const DoctorDetails = () => {
   const data = useLoaderData();
   const { id } = useParams();
+  const navigate = useNavigate(); // useNavigate to redirect on 404
+
+  // Try to find the doctor details based on the id from URL
   const details = data.find((item) => item.registration_number == id);
-  console.log(details.name);
+
+  // If no details are found, redirect to the 404 page
+  if (!details) {
+    navigate("/404"); // This will take you to your 404 page
+  }
+
   const {
     doctorImage,
     registration_number,
@@ -18,36 +27,33 @@ const DoctorDetails = () => {
     consultation_fee,
   } = details;
 
-
   const today = new Date().toLocaleDateString("en-US", { weekday: "long" });
 
   const handleBookAppointment = () => {
-  const bookedDoctors = JSON.parse(localStorage.getItem("bookedDoctors")) || [];
-  const alreadyBooked = bookedDoctors.find(
-    (doc) => doc.registration_number === registration_number
-  );
+    const bookedDoctors = JSON.parse(localStorage.getItem("bookedDoctors")) || [];
+    const alreadyBooked = bookedDoctors.find(
+      (doc) => doc.registration_number === registration_number
+    );
 
-  if (alreadyBooked) {
-    toast.error("Appointment Already Scheduled!", {
-      position: "top-center",
-      autoClose: 2000,
-    });
-  } else {
-    bookedDoctors.push({
-      registration_number,
-      name,
-      consultation_fee,
-    });
-    localStorage.setItem("bookedDoctors", JSON.stringify(bookedDoctors));
-    window.location.href = `/my-bookings`; 
-  }
-};
-  
+    if (alreadyBooked) {
+      toast.error("Appointment Already Scheduled!", {
+        position: "top-center",
+        autoClose: 2000,
+      });
+    } else {
+      bookedDoctors.push({
+        registration_number,
+        name,
+        consultation_fee,
+      });
+      localStorage.setItem("bookedDoctors", JSON.stringify(bookedDoctors));
+      window.location.href = `/my-bookings`;
+    }
+  };
 
   return (
-    
     <div className="bg-gray-100 mb-5">
-      <ToastContainer></ToastContainer>
+      <ToastContainer />
       <div className="w-6xl bg-white m-auto rounded-3xl shadow-2xl p-6">
         <h1 className="font-bold text-4xl text-center">
           Doctor’s Profile Details
@@ -120,14 +126,12 @@ const DoctorDetails = () => {
 
         <div className="border border-dashed border-gray-500 my-2"></div>
 
-        <button 
-  className="btn bg-[#176AE5] w-full mx-3 rounded-full text-lg text-white"
-  onClick={() => handleBookAppointment()}
->
-  Book Appointment Now
-</button>
-
-        
+        <button
+          className="btn bg-[#176AE5] w-full mx-3 rounded-full text-lg text-white"
+          onClick={() => handleBookAppointment()}
+        >
+          Book Appointment Now
+        </button>
       </div>
     </div>
   );

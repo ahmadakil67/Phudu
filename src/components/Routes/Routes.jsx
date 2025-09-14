@@ -6,6 +6,9 @@ import Blogs from "../Blogs/Blogs";
 import Bookings from "../Bookings/Bookings";
 import Home from "../Home/Home";
 import DoctorDetails from "../DoctorDetails/DoctorDetails";
+import Connect from "../Contact/Contact";
+import Contact from "../Contact/Contact";
+import NotFound from "../NotFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +38,14 @@ export const router = createBrowserRouter([
         loader: () => fetch("/doctorsDetails.json"),
         Component: DoctorDetails,
       },
+      {
+        path: "/contact",
+        Component: Contact
+      },
+      {
+        path: "*",
+        Component: NotFound
+      }
     ],
   },
 ]);
